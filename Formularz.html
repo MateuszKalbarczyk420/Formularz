@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Przykładowy Formularz</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='divyformularz.css'>
+    <script src='skrypty.js'></script>
+</head>
+<body>
+    <div id="strona">
+    <div id="formularz">
+<p>Formularz:</p>
+    <form action="..." method="post">
+        <label for="userName">Imię:</label>
+        <input type="text" id="userName" name="userName"/>
+    
+        <p><label for="userSurname">Nazwisko:</label>
+        <input type="text" id="userSurname" name="userSurname"/></p>
+   
+        <label for="userMail"> Adres e-mail:</label>
+        <input type="text" id="userMail" name="userMail"/>
+    
+        <p><button type="button" id="button1" onclick="sprawdźDane(userName.value, userSurname.value, userMail.value)">Sprawdź dane</button></p>
+        
+        <input type="reset" value="Wyczyść formularz">
+    </form>
+
+</div>
+</body>
+</html>
