@@ -1,1 +1,1 @@
-# Przykładowy formularz w JavaScript sprawdzający poprawność wprowadzanych danych
+# Przykładowy formularz w HTMLu & JavaScript sprawdzający poprawność wprowadzanych danych
